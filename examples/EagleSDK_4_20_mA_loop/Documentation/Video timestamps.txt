@@ -1,0 +1,50 @@
+The set up in this video has motor 2's position output signal being used as the force control signal for motor 1. Motor 2 has a shorter shaft than Motor 1
+
+Time 	- 	Description
+
+0:00	- 	Two motors are connected (Green titles) 
+		Motor 1
+		Motor position at 0 (fully retracted)
+		Ctrl current signal to motor 1 is 4mA (the PWM signal from motor 2 is producing this current)
+		PWM duty cycle of motor 1 is at the value that will produce 4mA output (denominator 4096)
+		Force Target is -5084 (-Force Gain) maximum negative value with current configuration due to 4mA ctrl signal
+		Control State 2 means the motor 1 force is being directly controlled by the ctrl current
+		Motor 2
+		Motor position at 0 (fully retracted)
+		There is no control signal being sent to motor 2
+		PWM duty cycle of motor 1 is at the value that will produce 4mA output (denominator 4096)
+		Force target 0, due to no current signal
+		Control state 0, motor is asleep 
+
+0:02-0:05	Motor 2 position starts to move, PWM Output from it increases resulting in the control current input signal to motor 1 increasing
+		Once the motor 2 position reaches half o the maximum position, the output PWM signal results in a control current to motor 1 of 12 mA
+		As the ctrl current signal increases from 4mA to 12mA the target force increases from -Force Gain to 0. With a force output of 0 the shaft
+		can move freely with no resistance.
+
+0:05-0:06	As Motor 2's position increasing past its halfway poitn the current control signal goes from 12mA - 16mA
+		The force target is now positive so Motor 1 starts moving in the positive direction
+		The PWM output from Motor 1 increases but then stops once its position passes the Max Position set in its configuration settings
+
+0:06-0:08	Motor 2 continues to its fully extended position 
+		Once the maximum position is reached, the ctrl current signal reaches 20mA and the force target becomes the positive Force Gain value. 
+		Motor 1 extends to its maximum position of ~295mm
+
+0:08-0:16	Motor 2 returns to its retracted position.  
+		The ctrl current moves from 20mA to 4mA
+		The force target move from maximum positive target to maximum negative.
+		As the force target goes negative Motor 1 starts moving back to its zero(fully retracted) position
+
+0:17-0:22	The Sleep Motor button is pressed. Putting the Motor 1 to sleep
+		The ctrl current is still 4mA however the target force now becomes 0 
+		Control state 0 
+
+0:22-0:26	The ctrl current input is physically disconnected, ctrl current goes to 0mA
+
+0:26-0:29	The ctrl current is reconnected, but still asleep due to sleep button
+
+0:29-0:34	Sleep Motor button is toggled off
+		Control State 1 force ramping
+		Force ramps to the target values then enters Controls State 2
+
+0:34-0:47	Motor 1 Max Position slider is moved to a new value and the Save Config button is pressed
+		This updates the position range for the PWM Output - > output current signal		

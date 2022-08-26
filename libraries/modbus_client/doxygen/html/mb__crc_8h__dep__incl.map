@@ -1,0 +1,18 @@
+<map id="mb_crc.h" name="mb_crc.h">
+<area shape="rect" id="node1" title=" " alt="" coords="125,5,201,32"/>
+<area shape="rect" id="node2" href="$mb__crc_8cpp.html" title=" " alt="" coords="35,80,125,107"/>
+<area shape="rect" id="node3" href="$modbus__lib_8h.html" title=" " alt="" coords="113,155,212,181"/>
+<area shape="rect" id="node5" href="$transaction_8h.html" title="MODBUS RTU frame object for outgoing and incoming requests." alt="" coords="247,80,345,107"/>
+<area shape="rect" id="node4" href="$modbus__lib_8cpp.html" title=" " alt="" coords="98,229,211,256"/>
+<area shape="rect" id="node6" href="$message__queue_8h.html" title="Buffer queue for transmitting and receiving messages through the UART channels." alt="" coords="423,155,551,181"/>
+<area shape="rect" id="node13" href="$qt__modbus__client_8h.html" title="Virtual device driver for Modbus client serial communication using qt ports and timers." alt="" coords="787,304,922,331"/>
+<area shape="rect" id="node14" href="$windows__modbus__client_8h.html" title="Virtual device driver for Modbus client serial communication using the Windows API." alt="" coords="5,304,179,331"/>
+<area shape="rect" id="node16" href="$transaction_8cpp.html" title=" " alt="" coords="287,155,398,181"/>
+<area shape="rect" id="node7" href="$modbus__client_8h.html" title="Modbus client serial communication virtual class." alt="" coords="428,229,545,256"/>
+<area shape="rect" id="node8" href="$modbus__client__application_8h.html" title="Base implementation of a Modbus client application layer." alt="" coords="203,304,389,331"/>
+<area shape="rect" id="node12" href="$modbus__client__k20_8h.html" title="Eagle (k20) device driver for Modbus client serial communication." alt="" coords="414,304,559,331"/>
+<area shape="rect" id="node15" href="$zynq7000__modbus__client_8h.html" title="Zynq7000 device driver for Modbus client serial communication." alt="" coords="583,304,763,331"/>
+<area shape="rect" id="node9" href="$iris__client__application_8h.html" title="Establishes a Modbus connection status between a client and server device." alt="" coords="217,379,375,405"/>
+<area shape="rect" id="node10" href="$actuator_8h.html" title="Actuator object that abstracts the use of the modbus library/ communication with an Orca motor server..." alt="" coords="256,453,336,480"/>
+<area shape="rect" id="node11" href="$pneumatic__controller_8h.html" title="Pneumatic Controller object that abstracts the use of the modbus library/ communication with an Pneum..." alt="" coords="219,528,373,555"/>
+</map>

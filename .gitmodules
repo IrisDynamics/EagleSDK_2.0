@@ -1,0 +1,12 @@
+[submodule "IrisControls4"]
+	path = IrisControls4
+	url = https://github.com/irisdynamics/IrisControls4
+[submodule "libraries/ic4_library"]
+	path = libraries/ic4_library
+	url = https://github.com/irisdynamics/ic4_library
+[submodule "libraries/orca600_api"]
+	path = libraries/orca600_api
+	url = https://github.com/irisdynamics/orca600_api
+[submodule "libraries/modbus_client"]
+	path = libraries/modbus_client
+	url = https://github.com/irisdynamics/modbus_client

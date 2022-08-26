@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\device_drivers",
+    "\\device_drivers\\k20",
+    "\\device_drivers\\kv31",
+    "\\device_drivers\\zynq7000"
+  ],
+  "SelectedNode": "\\device_drivers\\k20\\IC4_k20.h",
+  "PreviewInSolutionExplorer": false
+}

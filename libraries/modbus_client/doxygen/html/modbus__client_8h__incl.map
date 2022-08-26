@@ -1,0 +1,10 @@
+<map id="modbus_client.h" name="modbus_client.h">
+<area shape="rect" id="node1" title="Modbus client serial communication virtual class." alt="" coords="102,5,219,32"/>
+<area shape="rect" id="node2" href="$message__queue_8h.html" title="Buffer queue for transmitting and receiving messages through the UART channels." alt="" coords="97,80,225,107"/>
+<area shape="rect" id="node3" href="$transaction_8h.html" title="MODBUS RTU frame object for outgoing and incoming requests." alt="" coords="85,155,237,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,304,71,331"/>
+<area shape="rect" id="node5" href="$mb__crc_8h.html" title=" " alt="" coords="76,229,152,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="176,229,241,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="265,229,368,256"/>
+<area shape="rect" id="node6" href="$mb__config_8h.html" title=" " alt="" coords="95,304,187,331"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="modbus_client_k20.h" name="modbus_client_k20.h">
+<area shape="rect" id="node1" title="Eagle (k20) device driver for Modbus client serial communication." alt="" coords="172,5,317,32"/>
+<area shape="rect" id="node2" href="$modbus__client_8h.html" title="Modbus client serial communication virtual class." alt="" coords="90,80,231,107"/>
+<area shape="rect" id="node10" href="$modbus__k20__config_8h.html" title="Pre&#45;processor definitions used by the Modbus Client library." alt="" coords="256,80,404,107"/>
+<area shape="rect" id="node3" href="$message__queue_8h.html" title="Buffer queue for transmitting and receiving messages through the UART channels." alt="" coords="97,155,225,181"/>
+<area shape="rect" id="node4" href="$transaction_8h.html" title="MODBUS RTU frame object for outgoing and incoming requests." alt="" coords="85,229,237,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,379,71,405"/>
+<area shape="rect" id="node6" href="$mb__crc_8h.html" title=" " alt="" coords="76,304,152,331"/>
+<area shape="rect" id="node8" title=" " alt="" coords="176,304,241,331"/>
+<area shape="rect" id="node9" title=" " alt="" coords="265,304,368,331"/>
+<area shape="rect" id="node7" href="$mb__config_8h.html" title=" " alt="" coords="95,379,187,405"/>
+</map>
